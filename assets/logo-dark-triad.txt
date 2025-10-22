@@ -1,0 +1,3 @@
+Placeholder for THE DARK TRIAD triangular logo.
+
+Replace this file with your own logo asset named `logo-dark-triad.png`.

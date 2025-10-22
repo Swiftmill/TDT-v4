@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THE DARK TRIAD</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="video-container">
+    <video id="background-video" class="video" autoplay muted loop playsinline poster="assets/video-placeholder.jpg">
+      <source src="assets/video1.txt" type="video/mp4" />
+      Votre navigateur ne supporte pas la lecture vidéo.
+    </video>
+    <div class="video-overlay"></div>
+  </div>
+
+  <div class="grain-layer"></div>
+  <div class="scanlines-layer"></div>
+  <div class="flash-overlay" id="flash-overlay"></div>
+
+  <main>
+    <div class="hero-wrapper">
+      <div class="logo-wrapper" id="logo-trigger" tabindex="0" role="button" aria-label="Changer la vision">
+        <img src="assets/logo-dark-triad.png" alt="Symbole triangulaire THE DARK TRIAD" />
+        <span class="logo-placeholder glyph-text" data-text="THE DARK TRIAD">THE DARK TRIAD</span>
+      </div>
+      <div class="connector"></div>
+      <div class="content">
+        <h1 class="triad-title glyph-text initial-glow" id="triad-title" data-text="THE DARK TRIAD" tabindex="0" aria-label="THE DARK TRIAD">THE DARK TRIAD</h1>
+        <p class="triad-subtitle glyph-text initial-glow" data-text="NARCISSISM — PSYCHOPATHY — MACHIAVELLIANISM">NARCISSISM — PSYCHOPATHY — MACHIAVELLIANISM</p>
+        <div class="reveal-group" id="delayed-content">
+          <p class="triad-description glyph-text" data-text="The gate to hidden intellect and the dark nature of human mind. Enter the Triad. Learn, Observe, Control.">
+            The gate to hidden intellect and the dark nature of human mind. Enter the Triad. Learn, Observe, Control.
+          </p>
+          <div class="mystic-buttons">
+            <button type="button" class="mystic-button glyph-text" data-text="LEARN" aria-label="Learn">LEARN</button>
+            <button type="button" class="mystic-button glyph-text" data-text="OBSERVE" aria-label="Observe">OBSERVE</button>
+            <button type="button" class="mystic-button glyph-text" data-text="CONTROL" aria-label="Control">CONTROL</button>
+            <button type="button" class="mystic-button glyph-text" data-text="ARCHIVE" aria-label="Archive">ARCHIVE</button>
+          </div>
+          <p class="footer-note glyph-text" data-text="© THE DARK TRIAD. ENTER WITH INTENT.">© THE DARK TRIAD. ENTER WITH INTENT.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
